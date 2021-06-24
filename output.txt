@@ -1,0 +1,15 @@
+Output:
+
+# Output when Obj was obj={"x":{"y":{"z":"a"}}} and key_path= "x/y/z"
+
+1.      (venv) swn@swn-aeff8 test % python test.py
+         a
+
+
+# Output when Obj was obj={"a" : {"b" : {"c" : "d"}}} and key_path= "a/b/c"
+
+2.      (venv) swn@swn-aeff8 test % python test.py
+         d
+
+
+
