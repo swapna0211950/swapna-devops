@@ -2,6 +2,12 @@
 
 3-tier environment setup on GCP.
 
+this setup involves.
+
+1. Wordpress site installed on GKE
+2. Network and LB
+3. SQL DB
+
 Terraform code does the below.
 
 1. Creates VPC network, subnet for App and DB each.
